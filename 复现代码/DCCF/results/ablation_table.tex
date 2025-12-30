@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}   % 必须：绘制专业三线表
+\usepackage{multirow}   % 必须：处理合并行
+\usepackage{array}      % 增强表格功能
+\usepackage{caption}    % 设置标题样式
+
+\begin{document}
+
+\begin{table*}[t]
+\centering
+\caption{Ablation study on key components of DCCF (measured by $Recall@20$ and $NDCG@20$) on different datasets.}
+\label{table:ablation}
+\small % 适当缩小字体以适应页面宽度
+\setlength{\tabcolsep}{6pt} % 调整列间距
+\begin{tabular}{c|l|cc|cc}
+\toprule
+\multirow{2}{*}{Category} & \multirow{2}{*}{Variants} & \multicolumn{2}{c|}{Gowalla} & \multicolumn{2}{c}{Amazon-book} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+ & & Recall & NDCG & Recall & NDCG \\
+\midrule
+DME & -Disen & 0.1623 & 0.0964 & 0.0770 & 0.0579 \\
+\midrule
+\multirow{2}{*}{PAM} & -LocalR & 0.1692 & 0.0996 & 0.0786 & 0.0593 \\
+ & -DisenR & 0.1688 & 0.0995 & 0.0792 & 0.0596 \\
+\midrule
+\multirow{2}{*}{SSL} & -DisenG & 0.1736 & 0.1038 & 0.0821 & 0.0626 \\
+ & -AllAda & 0.1832 & 0.1077 & 0.0832 & 0.0631 \\
+\midrule
+\multicolumn{2}{l|}{\textit{\textbf{DCCF}}} & \textbf{0.1841} & \textbf{0.1100} & \textbf{0.0889} & \textbf{0.0680} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\end{document}

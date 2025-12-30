@@ -1,0 +1,145 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.24)  28 DEC 2025 22:05
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**ablation_table
+(./ablation_table.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(d:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(d:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (d:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (d:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count266
+\@cmidlb=\count267
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count268
+\@lastruleclass=\count269
+\@thisrulewidth=\dimen154
+) (d:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count270
+\multirow@dima=\skip52
+\bigstrutjot=\dimen155
+) (d:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box52
+\extrarowheight=\dimen157
+\NC@list=\toks19
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box53
+) (d:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (d:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+ (d:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\caption@tempdima=\dimen158
+\captionmargin=\dimen159
+\caption@leftmargin=\dimen160
+\caption@rightmargin=\dimen161
+\caption@width=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+) (d:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count273
+\l__pdf_internal_box=\box54
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_int=\count275
+)
+No file ablation_table.aux.
+\openout1 = `ablation_table.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+
+
+[1] (./ablation_table.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2104 strings out of 473832
+ 39929 string characters out of 5733158
+ 429985 words of memory out of 5000000
+ 25215 multiletter control sequences out of 15000+600000
+ 560700 words of font info for 47 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 55i,10n,65p,243b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ablation_table.pdf (1 page).
