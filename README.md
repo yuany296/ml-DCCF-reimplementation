@@ -16,9 +16,18 @@
 4. log里面是运行出来的结果，results里面是result.ipynb解析log运行出的结果。
 5. 修改代码使得可以在CPU上运行
 
-## 怎么运行
+### 怎么运行
 
-### 环境配置
+#### 环境配置
+cuda版本为11.3.其他环境与DCCF一致。
 
+#### 运行消融实验脚本
+```bash
+python run_ablation.py
+```
+#### 运行意图数超参实验脚本
+```bash
+python run_n_intents.py
+```
 
 
