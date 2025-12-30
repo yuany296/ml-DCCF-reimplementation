@@ -4,7 +4,34 @@
 
 位于复现代码/rechoruscode
 
+### 说明
+这是本小组基于论文和ReChorus框架对DCCF模型进行的复现和对比实验。
+
+**实验模型**：BPRMF、LightGCN、DCCF
+
+**数据集**：Grocery_and_Gourmet_Food、MovieLens_1M
+
+结果位于log.
+
+### 怎么运行
+
+#### 环境配置
+
+环境位于requirements.txt
+
+额外用到DCCF的环境
+- torch-scatter == 2.0.9
+- torch-sparse == 0.6.14
+
+#### 怎么运行
+
+在复现代码/rechoruscode的根目录下运行python run_comparison.py
+
+要修改参数，只需修改run_comparison.py中的model_params
+
 ## 2.消融实验、超参实验
+
+位于复现代码/DCCF
 
 用原始的DCCF进行修改
 
