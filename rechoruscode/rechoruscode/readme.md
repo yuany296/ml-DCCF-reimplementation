@@ -1,6 +1,0 @@
-这是本小组基于论文和ReChorus框架对DCCF模型进行的复现和对比实验
-我们基于ReChorus框架，对BPRMF、LightGCN、DCCF三个模型在Rechorus框架中原有的Grocery_and_Gourmet_Food、MovieLens_1M两个数据集分别进行了不同参数的实验。
-运行方法如下：
-首先安装requirements.txt中提到的依赖，这一步无法直接用pip -r install requirements.txt，因为用到的torch-sparse和torch-scatter和电脑配置有关。
-然后直接在本文件的根目录下运行python run_comparison.py
-要修改参数，只需修改run_comparison.py中的model_params
