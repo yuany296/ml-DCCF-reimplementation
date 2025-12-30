@@ -25,8 +25,10 @@
 
 #### 怎么运行
 
-在复现代码/rechoruscode的根目录下运行python run_comparison.py
-
+在复现代码/rechoruscode的根目录下运行
+```bash
+python run_comparison.py
+```
 要修改参数，只需修改run_comparison.py中的model_params
 
 ## 2.消融实验、超参实验
@@ -57,4 +59,7 @@ python run_ablation.py
 python run_n_intents.py
 ```
 
+## 原始代码链接
+[DCCF](https://github.com/HKUDS/DCCF)
+[Rechorus](https://github.com/THUwangcy/ReChorus)
 
