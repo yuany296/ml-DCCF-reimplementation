@@ -1,0 +1,66 @@
+INFO:root:Namespace(model_name='DCCF', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-12-29 19:19:11 ---------------------------------------------
+INFO:root:
+===================================
+ Arguments          | Values       
+===================================
+ batch_size         | 512         
+ cen_reg            | 0.0001      
+ data_appendix      |             
+ dataset            | MovieLens_1M
+ dropout            | 0           
+ early_stop         | 10          
+ emb_reg            | 0.0001      
+ emb_size           | 64          
+ epoch              | 100         
+ eval_batch_size    | 512         
+ gpu                | 0           
+ l2                 | 0.0         
+ lr                 | 0.001       
+ main_metric        | NDCG@10     
+ n_intents          | 8           
+ n_layers           | 3           
+ num_neg            | 1           
+ num_workers        | 5           
+ optimizer          | Adam        
+ random_seed        | 0           
+ save_final_results | 1           
+ ssl_reg            | 0.1         
+ temp               | 0.1         
+ test_all           | 0           
+ topk               | 5,10,20,50  
+===================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from data/MovieLens_1M/BaseReader.pkl
+INFO:root:#params: 640640
+INFO:root:DCCF(
+  (user_embedding): Embedding(6041, 64)
+  (item_embedding): Embedding(3953, 64)
+)
+INFO:root:Test Before Training: (HR@5:0.3153,NDCG@5:0.2043,HR@10:0.4810,NDCG@10:0.2577,HR@20:0.6694,NDCG@20:0.3054,HR@50:0.9104,NDCG@50:0.3535)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.1620 [344.1 s]	dev=(HR@10:0.6797,NDCG@10:0.4011) test=(HR@5:0.4650,NDCG@5:0.3128) [2.6 s] *
+INFO:root:Epoch 2     loss=0.1208 [344.2 s]	dev=(HR@10:0.6724,NDCG@10:0.3964) [1.3 s]
+INFO:root:Epoch 3     loss=0.1075 [344.2 s]	dev=(HR@10:0.6683,NDCG@10:0.3950) [1.3 s]
+INFO:root:Epoch 4     loss=0.1000 [344.2 s]	dev=(HR@10:0.6615,NDCG@10:0.3923) [1.3 s]
+INFO:root:Epoch 5     loss=0.0970 [344.2 s]	dev=(HR@10:0.6509,NDCG@10:0.3884) [1.3 s]
+INFO:root:Epoch 6     loss=0.0946 [344.1 s]	dev=(HR@10:0.6510,NDCG@10:0.3854) test=(HR@5:0.4437,NDCG@5:0.3032) [2.6 s]
+INFO:root:Epoch 7     loss=0.0941 [344.1 s]	dev=(HR@10:0.6411,NDCG@10:0.3800) [1.3 s]
+INFO:root:Epoch 8     loss=0.0923 [344.1 s]	dev=(HR@10:0.6393,NDCG@10:0.3748) [1.3 s]
+INFO:root:Epoch 9     loss=0.0928 [344.1 s]	dev=(HR@10:0.6408,NDCG@10:0.3720) [1.3 s]
+INFO:root:Epoch 10    loss=0.0923 [344.1 s]	dev=(HR@10:0.6212,NDCG@10:0.3554) [1.3 s]
+INFO:root:Epoch 11    loss=0.0920 [344.1 s]	dev=(HR@10:0.6341,NDCG@10:0.3663) test=(HR@5:0.4258,NDCG@5:0.2876) [2.6 s]
+INFO:root:Early stop at 11 based on dev result.
+INFO:root:
+Best Iter(dev)=    1	 dev=(HR@10:0.6797,NDCG@10:0.4011) [3803.7 s] 
+INFO:root:Load model from ../model/DCCF/DCCF__MovieLens_1M__0__lr=0.001__l2=0.0__emb_size=64__n_layers=3__n_intents=8__temp=0.1__emb_reg=0.0001__cen_reg=0.0001__ssl_reg=0.1.pt
+INFO:root:
+Dev  After Training: (HR@5:0.5006,NDCG@5:0.3428,HR@10:0.6797,NDCG@10:0.4011,HR@20:0.8396,NDCG@20:0.4416,HR@50:0.9756,NDCG@50:0.4693)
+INFO:root:
+Test After Training: (HR@5:0.4650,NDCG@5:0.3128,HR@10:0.6461,NDCG@10:0.3714,HR@20:0.8192,NDCG@20:0.4153,HR@50:0.9665,NDCG@50:0.4451)
+INFO:root:Saving top-100 recommendation results to: ../log/DCCF/DCCF__MovieLens_1M__0__lr=0/rec-DCCF-dev.csv
+INFO:root:dev Prediction results saved!
+INFO:root:Saving top-100 recommendation results to: ../log/DCCF/DCCF__MovieLens_1M__0__lr=0/rec-DCCF-test.csv
+INFO:root:test Prediction results saved!
+INFO:root:
+--------------------------------------------- END: 2025-12-29 20:22:52 ---------------------------------------------
